@@ -1,0 +1,25 @@
+{
+  "name": "NirGoldman/BlankRTL",
+  "description": "Magento 2 Blank RTL",
+  "type": "magento2-theme",
+  "version": "1.0.0",
+  "require": {
+    "magento/theme-frontend-blank": "*",
+    "magento/framework": "*"
+  },
+  "authors": [
+    {
+      "name": "Nir Goldman",
+      "email": "nir@godevelop.co.il",
+      "homepage": "https://www.godevelop.co.il"
+    }
+  ],
+  "license": [
+    "OSL-3.0"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ]
+  }
+}
